@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Minesweeper Black</string>
+    <string name="title_activity_game">Classical</string>
+    <string name="title_activity_help">Help</string>
+    <string name="title_activity_leaderboard">Leaderboard</string>
+
+    <string name="help">Help</string>
+    <string name="new_game">New Game</string>
+    <string name="exit">Exit</string>
+   	<string name="yes">Yes</string>
+	<string name="no">No</string>
+	<string name="rank">Rank</string>
+    <string name="name">Name</string>
+    <string name="time">Time</string>
+    <string name="close">Close</string>
+    <string name="cancel">Cancel</string>
+    <string name="submit">Submit</string>
+    <string name="rows">Rows</string>
+    <string name="columns">Columns</string>
+    <string name="mines">Mines</string>
+    <string name="beginner">Beginner</string>
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+    <string name="insane">Insane</string>
+    <string name="resume_game">Resume Game</string>
+    <string name="leaderboard">Leaderboard</string>
+    <string name="reset_leaderboard">Reset Leaderboard</string>
+    
+    <string name="gametype_prompt">Choose a gametype</string>
+    <string name="difficulty_prompt">Choose a difficulty</string>
+    <string name="mine_counter">000</string>
+    <string name="timer">000</string>
+    <string name="reset_button">:)</string>
+	<string name="title1">Minesweeper</string>
+	<string name="title2">Black</string>
+	<string name="help_text_1">This is a test\t1\n2\n3\n4</string>
+	<string name="exit_text">Do you want to quit?</string>
+	<string name="help_line1">How to play</string>
+	<string name="help_line2">Click on blocks to uncover them, if you uncover a mine you lose. If you uncover a number that\'s how many mines surround that block in the 8 nearby squares. Win the game by uncovering all the blocks that aren\'t mines.</string>
+	<string name="help_line3">Tips</string>
+	<string name="help_line4">Long Click blocks to mark them with a flag and keep track of the hidden mines.</string>
+	<string name="help_line5">Click the mine/flag icon in the toolbar to toggle between mine and flag mode, flag mode allows you to add flags with short clicks.</string>
+	<string name="help_line6">Start a new game</string>
+	<string name="help_line7">Toggle flag and mine mode</string>
+	<string name="help_line8">Zoom in and out</string>
+	<string name="help_line9">Lock movement</string>
+	<string name="help_line10">(left) The remaining unflagged mines</string>
+	<string name="help_line11">(right) Timer</string>
+	<string name="input_name_hint">Enter name</string>
+	<string name="leaderboard_reset_hint">Reset the Leaderboard?</string>
+	
+    <string-array name="gametype_array">
+        <item>Classic</item>
+        <item>Black</item>
+    </string-array>
+    <string-array name="difficulty_array">
+        <item>Beginner</item>
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+        <item>Insane</item>
+        <item>Custom</item>
+    </string-array>
+</resources>

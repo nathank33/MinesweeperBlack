@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="timer_text_size">30dp</dimen>
+    <dimen name="btn_text_size">22dp</dimen>
+    <dimen name="title1_text">40dp</dimen>
+    <dimen name="title2_text">34dp</dimen><dimen name="title_lower_padding">12dp</dimen>
+    <dimen name="spinner_list_size">22dp</dimen><dimen name="spinner_textsize">18dp</dimen>
+    <dimen name="spinner_height">36dp</dimen>
+    <dimen name="spinner_padding">2dp</dimen>
+    <dimen name="title_upper_padding">0dp</dimen>
+    <dimen name="help_title_text">38sp</dimen>
+    <dimen name="help_normal_text">16sp</dimen>
+    <dimen name="help_padding">3dp</dimen>
+    <dimen name="help_icon_padding">15dp</dimen>
+    
+
+</resources>

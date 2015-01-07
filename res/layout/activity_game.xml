@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lboard_main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android1:background="@drawable/main_background" >
+    
+	<!--  Header Bar information -->
+
+    <RelativeLayout
+        android1:id="@+id/header"
+        android1:layout_width="match_parent"
+        android1:layout_height="wrap_content"
+        android1:layout_marginLeft="0dp"
+        android1:layout_marginRight="0dp"
+        android1:orientation="horizontal"
+       >
+
+        <TextView
+            android1:id="@+id/bomb_counter"
+            android1:layout_width="wrap_content"
+            android1:layout_height="wrap_content"
+            android1:layout_alignParentLeft="true"
+            android1:layout_centerVertical="true"
+            android1:layout_marginLeft="5dp"
+            android1:background="@color/timer_background_color"
+            android1:text="@string/mine_counter"
+            android1:textColor="@color/timer_text_color"
+            android1:textSize="@dimen/timer_text_size" />
+
+        <LinearLayout
+            android1:id="@+id/headerButtonLayout"
+            android1:layout_width="wrap_content"
+            android1:layout_height="wrap_content"
+            android1:layout_centerHorizontal="true" >
+            
+            <ImageButton
+                android1:id="@+id/move_button"
+                android1:layout_width="wrap_content"
+                android1:layout_height="wrap_content"
+                android1:layout_gravity="center"
+                android1:background="@null"
+                android1:padding="8dp"
+                android1:src="@drawable/ic_move_bar"
+                android1:visibility="gone" />
+
+            <ImageButton
+                android1:id="@+id/zoom_button"
+                android1:layout_width="wrap_content"
+                android1:layout_height="wrap_content"
+                android1:layout_gravity="center"
+                android1:background="@null"
+                android1:padding="8dp"
+                android1:src="@drawable/ic_zoom_bar" />
+
+            <ImageButton
+                android1:id="@+id/reset_button"
+                android1:layout_width="wrap_content"
+                android1:layout_height="wrap_content"
+                android1:layout_gravity="center"
+                android1:background="@null"
+                android1:padding="8dp"
+                android1:src="@drawable/ic_smile_bar" />
+
+            <ImageButton
+                android1:id="@+id/mode_button"
+                android1:layout_width="wrap_content"
+                android1:layout_height="wrap_content"
+                android1:layout_gravity="center"
+                android1:background="@null"
+                android1:padding="8dp"
+                android1:src="@drawable/ic_mine2_bar" />
+
+        </LinearLayout>
+
+        <TextView
+            android1:id="@+id/timer_label"
+            android1:layout_width="wrap_content"
+            android1:layout_height="wrap_content"
+            android1:layout_alignParentLeft="false"
+            android1:layout_alignParentRight="true"
+            android1:layout_centerVertical="true"
+            android1:layout_marginRight="5dp"
+            android1:background="@color/timer_background_color"
+            android1:text="@string/timer"
+            android1:textColor="@color/timer_text_color"
+            android1:textSize="@dimen/timer_text_size" />
+
+    </RelativeLayout>
+
+
+    <com.enjin.bendcraft.minesweeperblack.TwoDScrollView
+        android1:id="@+id/twoDScrollView"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_below="@id/header"
+        android1:layout_centerHorizontal="true"
+        android1:layout_centerVertical="false" >
+
+        <TableLayout
+            android1:id="@+id/table_layout"
+            android1:layout_width="wrap_content"
+            android1:layout_height="wrap_content" >
+
+        </TableLayout>
+
+    </com.enjin.bendcraft.minesweeperblack.TwoDScrollView>
+
+
+</RelativeLayout>

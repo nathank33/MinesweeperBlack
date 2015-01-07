@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    android:fillViewport="true" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/title_lower_padding"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/title_lower_padding" >
+
+            <TextView
+                android:id="@+id/exit_window_text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/title_upper_padding"
+                android:gravity="center_horizontal"
+                android:text="@string/title1"
+                android:textColor="@color/title_text_color"
+                android:textSize="@dimen/title1_text" />
+
+            <TextView
+                android:id="@+id/name_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/title2"
+                android:textColor="@color/title_text_color"
+                android:textSize="@dimen/title2_text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/main_linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="vertical" >
+
+                <Spinner
+                    android:id="@+id/difficulty_spinner"
+                    style="@style/AppTheme.ButtonStyle"
+                    android:entries="@array/difficulty_array"
+                    android:prompt="@string/difficulty_prompt" />
+
+                <LinearLayout
+                    android:id="@+id/custom_input_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp" >
+
+                    <EditText
+                        android:id="@+id/etext_row"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="5"
+                        android:hint="@string/rows"
+                        android:imeOptions="actionNext"
+                        android:inputType="number"
+                        android:singleLine="true"
+                        android:textColorHint="@color/button_text_color" />
+
+                    <EditText
+                        android:id="@+id/etext_col"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="5"
+                        android:hint="@string/columns"
+                        android:imeOptions="actionNext"
+                        android:inputType="number"
+                        android:textColorHint="@color/button_text_color" />
+
+                    <EditText
+                        android:id="@+id/etext_mines"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="5"
+                        android:hint="@string/mines"
+                        android:inputType="number"
+                        android:textColorHint="@color/button_text_color" />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/resume_button"
+                    style="@style/AppTheme.ButtonStyle"
+                    android:text="@string/resume_game" />
+
+                <Button
+                    android:id="@+id/start_button"
+                    style="@style/AppTheme.ButtonStyle"
+                    android:text="@string/new_game" />
+
+                <Button
+                    android:id="@+id/close_help_window"
+                    style="@style/AppTheme.ButtonStyle"
+                    android:text="@string/help" />
+
+                <Button
+                    android:id="@+id/exit_button"
+                    style="@style/AppTheme.ButtonStyle"
+                    android:text="@string/exit" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

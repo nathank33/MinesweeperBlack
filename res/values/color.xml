@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red">#FF0000</color><color name="lightgray">#D7D7D7</color><color name="darkgray">#282828</color><color name="timer_text_color">#ff0a10</color>
+    <color name="timer_background_color">#000000</color>
+    <color name="header_background">#E6F5FA</color>
+    <color name="table_background">#002E3D</color>
+    <color name="main_window_color">#6666C2</color>
+    <color name="button_text_color">#202020</color>
+    <color name="spinner_text">#202020</color>
+    <color name="title_text_color">#FFFFFF</color>
+    
+    
+    
+    
+</resources>

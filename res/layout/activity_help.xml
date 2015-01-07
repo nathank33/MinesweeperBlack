@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android1:background="@drawable/main_background"
+    android:fillViewport="true" >
+<LinearLayout 
+ 
+    android:id="@+id/lboard_main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   
+    android1:orientation="vertical" >
+
+    <TextView
+        android1:id="@+id/help_line_1"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_gravity="center_horizontal"
+        android1:text="@string/help_line1"
+        android1:textSize="@dimen/help_title_text" />
+
+    <TextView
+        android1:id="@+id/help_line_2"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_margin="@dimen/help_padding"
+        android1:text="@string/help_line2"
+        android1:textSize="@dimen/help_normal_text" />
+
+    <TextView
+        android1:id="@+id/help_line_3"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_gravity="center_horizontal"
+        android1:text="@string/help_line3"
+        android1:textSize="@dimen/help_title_text" />
+    
+    <TextView
+        android1:id="@+id/help_line_4"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_margin="@dimen/help_padding"
+        android1:text="@string/help_line4"
+        android1:textSize="@dimen/help_normal_text" />
+    
+   <TextView
+        android1:id="@+id/help_line_5"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_margin="@dimen/help_padding"
+        android1:text="@string/help_line5"
+        android1:textSize="@dimen/help_normal_text" />
+
+   <TextView
+       android1:id="@+id/help_line_6"
+       android1:layout_width="wrap_content"
+       android1:layout_height="wrap_content"
+       android1:layout_margin="@dimen/help_padding"
+       android1:drawableLeft="@drawable/ic_smile_m"
+       android1:drawablePadding="@dimen/help_icon_padding"
+       android1:gravity="center_vertical"
+       android1:text="@string/help_line6"
+       android1:textSize="@dimen/help_normal_text" />
+   
+      <TextView
+          android1:id="@+id/help_line_7"
+          android1:layout_width="wrap_content"
+          android1:layout_height="wrap_content"
+          android1:layout_margin="@dimen/help_padding"
+          android1:drawableLeft="@drawable/ic_mine2_m"
+          android1:drawablePadding="@dimen/help_icon_padding"
+          android1:gravity="center_vertical"
+          android1:text="@string/help_line7"
+          android1:textSize="@dimen/help_normal_text" />
+
+      <TextView
+          android1:id="@+id/help_line_8"
+          android1:layout_width="wrap_content"
+          android1:layout_height="wrap_content"
+          android1:layout_margin="@dimen/help_padding"
+          android1:drawableLeft="@drawable/ic_zoom_m"
+          android1:drawablePadding="@dimen/help_icon_padding"
+          android1:gravity="center_vertical"
+          android1:text="@string/help_line8"
+          android1:textSize="@dimen/help_normal_text" />
+
+      <TextView
+          android1:id="@+id/help_line_9"
+          android1:layout_width="wrap_content"
+          android1:layout_height="wrap_content"
+          android1:layout_margin="@dimen/help_padding"
+          android1:drawableLeft="@drawable/ic_move_m"
+          android1:drawablePadding="@dimen/help_icon_padding"
+          android1:gravity="center_vertical"
+          android1:text="@string/help_line9"
+          android1:textSize="@dimen/help_normal_text"
+          android1:visibility="gone" />
+
+      <LinearLayout
+          android1:layout_width="match_parent"
+          android1:layout_height="wrap_content" >
+          <TextView
+              android1:id="@+id/help_mines_label"
+              android1:layout_width="wrap_content"
+              android1:layout_height="wrap_content"
+              android1:layout_margin="@dimen/help_padding"
+              android1:layout_marginRight="@dimen/help_icon_padding"
+              android1:background="@color/timer_background_color"
+              android1:text="@string/timer"
+              android1:textColor="@color/timer_text_color"
+              android1:textSize="@dimen/timer_text_size" />
+
+	      <TextView
+	          android1:id="@+id/help_line_10"
+	          android1:layout_width="wrap_content"
+	          android1:layout_height="wrap_content"
+	          android1:layout_marginLeft="@dimen/help_padding"
+	          android1:text="@string/help_line10"
+	          android1:textSize="@dimen/help_normal_text" />
+
+      </LinearLayout>
+      
+     <LinearLayout
+          android1:layout_width="match_parent"
+          android1:layout_height="wrap_content" >
+          <TextView
+              android1:id="@+id/help_timer_label"
+              android1:layout_width="wrap_content"
+              android1:layout_height="wrap_content"
+              android1:layout_margin="@dimen/help_padding"
+              android1:layout_marginRight="@dimen/help_icon_padding"
+              android1:background="@color/timer_background_color"
+              android1:text="@string/timer"
+              android1:textColor="@color/timer_text_color"
+              android1:textSize="@dimen/timer_text_size" />
+
+	      <TextView
+	          android1:id="@+id/help_line_11"
+	          android1:layout_width="wrap_content"
+	          android1:layout_height="wrap_content"
+	          android1:layout_marginLeft="@dimen/help_padding"
+	          android1:text="@string/help_line11"
+	          android1:textSize="@dimen/help_normal_text" />
+
+      </LinearLayout>
+      
+</LinearLayout>
+</ScrollView>

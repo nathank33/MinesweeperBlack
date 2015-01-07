@@ -1,0 +1,6 @@
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/custom_spinner"
+    style="@style/AppTheme.SpinnerStyle"
+    >
+
+</TextView>
